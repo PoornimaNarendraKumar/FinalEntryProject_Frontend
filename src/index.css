@@ -1,0 +1,30 @@
+.product-list {
+  padding: 2rem;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: 200px;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+  background-color: #fff;
+}
+
+.product img {
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.product:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
